@@ -1,5 +1,7 @@
 # ZSH Crypto Prices
 
+![ZSH Crypto Prices screenshot](screenshot.png)
+
 Oh My Zsh plugin adding a Powerlevel9k segment to display crypto prices in Zsh
 
 ## Requirements
