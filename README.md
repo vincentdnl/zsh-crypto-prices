@@ -12,9 +12,8 @@ Oh My Zsh plugin adding a Powerlevel9k segment to display crypto prices in Zsh
 
 ## Installation
 
-1. `git clone https://github.com/vincentdnl/zsh-crypto-prices.git`
-2. `mv zsh-crypto-prices ${ZSH}/plugins/`
-3. Add plugin in `$HOME/.zshrc`
+1. `git clone https://github.com/vincentdnl/zsh-crypto-prices.git ${ZSH}/plugins/`
+2. Add plugin in `$HOME/.zshrc`
 ```
 plugins=(
   ...
@@ -22,7 +21,6 @@ plugins=(
   ...
 )
 
-source $ZSH/oh-my-zsh.sh
-
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(custom_bitcoin_price)
 ```
+3. `source $ZSH/oh-my-zsh.sh`
